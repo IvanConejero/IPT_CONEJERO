@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    
+        body{
+        transition: background 0.5s, color 0.5s;
+        background-color: white;
+        color: black;
+    
+        }
+        body.dark-mode {
+        background-color: black;
+        color: white;
+        }
+    
+        .container {
+        text-align: center;
+        padding: 50px;
+        }
+    
+    </style>
+
+</head>
+
+
+<body>
+    <label>First Number</label><br>
+    <input id="numOne" class="num1"> </input><br>
+
+    <label>Second Number</label><br>
+    <input id="numTwo"/>
+
+    <h3 id="result" class="test">
+        Result : 0
+    </h3>
+    
+
+    <button type="button" id="clickSum" onclick="SumResult()"> + </button>
+    <div class="container">
+        <h1>Toggle Light/Dark Mode</h1>
+        <button id="toggle-button">pindutan</button>
+    </div>
+    
+
+</body>
+
+<script>
+
+
+    function SumResult(){
+        let numOne = document.querySelector(".num1").value;
+        let numTwo = document.querySelector("#numTwo").value;
+        let SumR = document.querySelector(".test");
+        
+        let sum = Number(numOne) + Number(numTwo);
+        SumR.textContent = 'Result : ' + sum;
+        
+    }
+    const toggleButton = document.querySelector('#toggle-button');
+
+    toggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    });
+    
+    </script>
+</html>

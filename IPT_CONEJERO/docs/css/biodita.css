@@ -1,0 +1,143 @@
+.pecture {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 69.6%;
+    top: 1%;
+    border: solid black;
+}
+
+
+.divider {
+    position: relative;
+    height: 10px;
+    border-top: 2px black;
+
+}
+
+.PersonalDataBox {
+    position: absolute;
+    top: 95px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 1px;
+    
+}
+
+.TitleBox {
+
+    width: 855px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.EdTitleBox {
+
+    width: 855px;
+    position: absolute;
+    top: 740px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.EdDataBox {
+    position: absolute;
+    top: 825px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 1px;
+    
+}
+.EmTitleBox {
+
+    width: 855px;
+    position: absolute;
+    top: 1030px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+.EmDataBox {
+    position: absolute;
+    top: 1115px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 1px;
+    
+}
+.ChTitleBox {
+
+    width: 855px;
+    position: absolute;
+    top: 1285px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.ChDataBox {
+    position: absolute;
+    top: 1370px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 1px;
+    
+}
+
+.rnDataBox {
+    position: absolute;
+    top: 1540px;
+    left: 39.3%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 1px;
+    
+}
+
+.txDataBox {
+    position: absolute;
+    width: 350px;
+    height: 254px;
+    justify-content: center;
+    top: 1530px;
+    left: 63.4%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 1px;
+    
+}
